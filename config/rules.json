@@ -1,0 +1,94 @@
+{
+  "processing_rules": {
+    "file_validation": {
+      "supported_formats": [".pdf", ".doc", ".docx", ".txt", ".tex"],
+      "max_file_size": "50MB",
+      "encoding": "utf-8",
+      "require_text_content": true
+    },
+    "content_extraction": {
+      "min_comment_length": 10,
+      "max_comment_length": 2000,
+      "require_explicit_opinion": true,
+      "ignore_repetitive_content": true
+    },
+    "quality_thresholds": {
+      "comment_classification_confidence": 0.7,
+      "content_relevance_score": 0.6,
+      "response_completeness": 0.8,
+      "language_quality_score": 0.75
+    }
+  },
+  "response_rules": {
+    "publication_orientation": {
+      "primary_goal": "maximize_publication_probability",
+      "avoid_new_controversies": true,
+      "strategic_compromise_allowed": true,
+      "cost_benefit_evaluation_required": true
+    },
+    "politeness_requirements": {
+      "required_phrases": ["感谢", "审稿人", "意见", "修改"],
+      "tone_formality": "high",
+      "avoid_confrontational": true,
+      "cooperation_emphasis": true
+    },
+    "structural_requirements": {
+      "must_address_each_comment": true,
+      "provide_specific_modifications": true,
+      "include_location_references": true,
+      "maintain_logical_flow": true,
+      "publication_benefit_assessment": true
+    },
+    "content_requirements": {
+      "technical_accuracy": "high",
+      "justification_required": true,
+      "evidence_based_responses": true,
+      "acknowledge_limitations": true,
+      "avoid_expanding_scope": true,
+      "strategic_positioning": true
+    }
+  },
+  "analysis_rules": {
+    "comment_categorization": {
+      "major_issue_indicators": ["fundamental", "major", "critical", "serious", "flaw"],
+      "minor_issue_indicators": ["minor", "small", "little", "slight", "format"],
+      "suggestion_indicators": ["suggest", "recommend", "consider", "might", "could"],
+      "positive_indicators": ["good", "excellent", "well", "clear", "interesting"]
+    },
+    "severity_assessment": {
+      "fatal_issue_keywords": ["unacceptable", "fundamental flaw", "fatal error", "reject", "major problem"],
+      "high_severity_keywords": ["serious issue", "major concern", "significant problem", "critical flaw"],
+      "medium_severity_keywords": ["unclear", "missing", "insufficient", "needs improvement", "should clarify"],
+      "low_severity_keywords": ["minor", "typo", "formatting", "suggestion", "could consider", "might want"]
+    },
+    "publication_impact_assessment": {
+      "fatal_impact_indicators": ["methodology invalid", "results unreliable", "conclusion wrong", "data insufficient"],
+      "high_impact_indicators": ["major revision needed", "additional experiments", "theoretical flaw", "interpretation error"],
+      "medium_impact_indicators": ["clarity needed", "more discussion", "additional references", "better organization"],
+      "low_impact_indicators": ["minor clarification", "formatting issue", "language polishing", "cosmetic change"]
+    },
+    "relevance_scoring": {
+      "section_match_weight": 0.4,
+      "content_similarity_weight": 0.3,
+      "keyword_match_weight": 0.2,
+      "context_relevance_weight": 0.1
+    }
+  },
+  "validation_rules": {
+    "pre_processing": {
+      "check_file_integrity": true,
+      "validate_encoding": true,
+      "remove_malformed_content": true
+    },
+    "during_processing": {
+      "monitor_memory_usage": true,
+      "timeout_limit": 300,
+      "error_recovery": true
+    },
+    "post_processing": {
+      "validate_output_format": true,
+      "check_completeness": true,
+      "quality_assessment": true
+    }
+  }
+}

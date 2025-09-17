@@ -1,0 +1,39 @@
+{
+  "processing": {
+    "batch_size": 10,
+    "quality_threshold": 0.8,
+    "output_format": "markdown",
+    "enable_parallel": true,
+    "max_file_size": "50MB"
+  },
+  "analysis": {
+    "enable_statistics": true,
+    "generate_charts": true,
+    "include_recommendations": true,
+    "confidence_threshold": 0.7
+  },
+  "content_extraction": {
+    "chunk_size": 2000,
+    "overlap_size": 200,
+    "priority_sections": ["abstract", "introduction", "conclusion"],
+    "key_terms_limit": 50
+  },
+  "response_generation": {
+    "template_preference": "academic_formal",
+    "politeness_level": "high",
+    "detail_level": "comprehensive",
+    "enable_citations": true
+  },
+  "quality_control": {
+    "enable_auto_check": true,
+    "manual_review_required": true,
+    "plagiarism_check": false,
+    "format_validation": true
+  },
+  "output": {
+    "include_timestamp": true,
+    "include_metadata": true,
+    "generate_summary": true,
+    "backup_previous": true
+  }
+}

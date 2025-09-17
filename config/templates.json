@@ -1,0 +1,65 @@
+{
+  "response_templates": {
+    "major_issue": {
+      "title": "主要问题回复模板",
+      "structure": {
+        "greeting": "尊敬的审稿人，",
+        "acknowledgment": "感谢您提出的宝贵意见。",
+        "understanding": "我们完全理解您的关切，",
+        "response": "针对您提出的问题，我们",
+        "modification": "具体修改如下：",
+        "conclusion": "再次感谢您的审阅。"
+      }
+    },
+    "minor_issue": {
+      "title": "次要问题回复模板",
+      "structure": {
+        "greeting": "感谢审稿人的意见，",
+        "acknowledgment": "我们认同您的建议，",
+        "modification": "已在文中做出相应修改：",
+        "improvement": "这一修改使得",
+        "conclusion": "感谢您的细致审阅。"
+      }
+    },
+    "suggestion": {
+      "title": "建议回复模板",
+      "structure": {
+        "greeting": "感谢审稿人的建设性建议，",
+        "evaluation": "经过认真考虑，",
+        "implementation": "我们采纳了您的建议，",
+        "benefit": "这一改进有助于",
+        "conclusion": "感谢您的有益建议。"
+      }
+    },
+    "positive_comment": {
+      "title": "正面评价回复模板",
+      "structure": {
+        "greeting": "感谢审稿人的肯定，",
+        "appreciation": "我们很高兴",
+        "commitment": "在修订稿中，我们将继续",
+        "conclusion": "感谢您的鼓励。"
+      }
+    }
+  },
+  "analysis_templates": {
+    "paper_structure": {
+      "sections": ["title", "abstract", "introduction", "methods", "results", "discussion", "conclusion"],
+      "key_elements": ["research_question", "methodology", "findings", "contributions", "limitations"]
+    },
+    "comment_categories": {
+      "major_issues": ["methodology", "validity", "significance"],
+      "minor_issues": ["clarity", "formatting", "references"],
+      "suggestions": ["improvement", "extension", "comparison"],
+      "positive": ["strengths", "contributions", "innovation"]
+    }
+  },
+  "report_templates": {
+    "statistical_report": {
+      "sections": ["summary", "comment_distribution", "severity_analysis", "response_quality", "recommendations"],
+      "charts": ["pie_chart", "bar_chart", "trend_line"]
+    },
+    "detailed_analysis": {
+      "sections": ["overview", "comment_breakdown", "content_mapping", "response_evaluation", "improvement_suggestions"]
+    }
+  }
+}
