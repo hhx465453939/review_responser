@@ -10,7 +10,10 @@
     "enable_statistics": true,
     "generate_charts": true,
     "include_recommendations": true,
-    "confidence_threshold": 0.7
+    "confidence_threshold": 0.7,
+    "prioritize_misunderstanding_detection": true,
+    "assess_publication_impact": true,
+    "identify_exhibition_vs_substance_issues": true
   },
   "content_extraction": {
     "chunk_size": 2000,
@@ -19,10 +22,14 @@
     "key_terms_limit": 50
   },
   "response_generation": {
-    "template_preference": "academic_formal",
-    "politeness_level": "high",
-    "detail_level": "comprehensive",
-    "enable_citations": true
+    "template_preference": "minimal_revision",
+    "politeness_level": "professional",
+    "detail_level": "concise",
+    "enable_citations": true,
+    "avoid_excessive_humility": true,
+    "prioritize_clarification": true,
+    "use_section_references": true,
+    "word_count_target": "1500-2000"
   },
   "quality_control": {
     "enable_auto_check": true,

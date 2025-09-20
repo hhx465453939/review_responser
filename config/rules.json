@@ -24,10 +24,16 @@
       "primary_goal": "maximize_publication_probability",
       "avoid_new_controversies": true,
       "strategic_compromise_allowed": true,
-      "cost_benefit_evaluation_required": true
+      "cost_benefit_evaluation_required": true,
+      "minimal_revision_principle": true,
+      "focus_on_exhibition_not_substance": true,
+      "clarify_misunderstandings_first": true
     },
     "politeness_requirements": {
-      "required_phrases": ["感谢", "审稿人", "意见", "修改"],
+      "standard_acknowledgment": "We thank the reviewer for [specific aspect].",
+      "avoid_excessive_humility": true,
+      "avoid_phrases": ["completely understand", "sincerely apologize", "excellent point"],
+      "professional_equality": true,
       "tone_formality": "high",
       "avoid_confrontational": true,
       "cooperation_emphasis": true
@@ -36,6 +42,8 @@
       "must_address_each_comment": true,
       "provide_specific_modifications": true,
       "include_location_references": true,
+      "use_section_based_references": true,
+      "reference_format": "Section X.X, paragraph Y, line ~Z",
       "maintain_logical_flow": true,
       "publication_benefit_assessment": true
     },
@@ -45,7 +53,25 @@
       "evidence_based_responses": true,
       "acknowledge_limitations": true,
       "avoid_expanding_scope": true,
-      "strategic_positioning": true
+      "strategic_positioning": true,
+      "clarify_technical_misunderstandings": true,
+      "highlight_existing_evidence": true,
+      "distinguish_exhibition_vs_substance": true
+    },
+    "revision_strategy": {
+      "minimal_change_maximum_effect": true,
+      "prioritize_language_over_content": true,
+      "address_misunderstandings_before_modifications": true,
+      "focus_on_presentation_issues": true,
+      "avoid_unnecessary_experiments": true,
+      "strategic_limitation_acknowledgment": true
+    },
+    "technical_clarification_strategy": {
+      "identify_reviewer_misunderstandings": true,
+      "provide_evidence_location": true,
+      "explain_existing_validation": true,
+      "distinguish_perception_vs_reality": true,
+      "use_supplementary_materials_effectively": true
     }
   },
   "analysis_rules": {

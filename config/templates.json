@@ -3,41 +3,54 @@
     "major_issue": {
       "title": "主要问题回复模板",
       "structure": {
-        "greeting": "尊敬的审稿人，",
-        "acknowledgment": "感谢您提出的宝贵意见。",
-        "understanding": "我们完全理解您的关切，",
+        "acknowledgment": "We thank the reviewer for this important point.",
         "response": "针对您提出的问题，我们",
-        "modification": "具体修改如下：",
-        "conclusion": "再次感谢您的审阅。"
+        "modification": "**Revisions Made**: **具体修改如下：**",
+        "location": "**修改位置**: Section X.X, paragraph Y"
       }
     },
     "minor_issue": {
       "title": "次要问题回复模板",
       "structure": {
-        "greeting": "感谢审稿人的意见，",
-        "acknowledgment": "我们认同您的建议，",
-        "modification": "已在文中做出相应修改：",
-        "improvement": "这一修改使得",
-        "conclusion": "感谢您的细致审阅。"
+        "acknowledgment": "We thank the reviewer for highlighting this issue.",
+        "modification": "**Revisions Made**: **已在文中做出相应修改：**",
+        "location": "**修改位置**: Section X.X, paragraph Y"
       }
     },
     "suggestion": {
       "title": "建议回复模板",
       "structure": {
-        "greeting": "感谢审稿人的建设性建议，",
-        "evaluation": "经过认真考虑，",
+        "acknowledgment": "We thank the reviewer for this constructive suggestion.",
         "implementation": "我们采纳了您的建议，",
-        "benefit": "这一改进有助于",
-        "conclusion": "感谢您的有益建议。"
+        "modification": "**Revisions Made**: **具体修改内容**",
+        "location": "**修改位置**: Section X.X, paragraph Y"
       }
     },
     "positive_comment": {
       "title": "正面评价回复模板",
       "structure": {
-        "greeting": "感谢审稿人的肯定，",
+        "acknowledgment": "We thank the reviewer for this positive feedback.",
         "appreciation": "我们很高兴",
-        "commitment": "在修订稿中，我们将继续",
-        "conclusion": "感谢您的鼓励。"
+        "commitment": "在修订稿中，我们将继续"
+      }
+    },
+    "technical_clarification": {
+      "title": "技术澄清回复模板",
+      "structure": {
+        "acknowledgment": "We thank the reviewer for bringing this to our attention.",
+        "clarification": "To clarify, our study actually includes [具体已有内容]:",
+        "evidence": "- [具体证据1]\n- [具体证据2]",
+        "modification": "**Revisions Made**: **For improved transparency, we have now [具体改进措施]**",
+        "location": "**修改位置**: Section X.X, paragraph Y"
+      }
+    },
+    "minimal_revision": {
+      "title": "最小修改回复模板",
+      "structure": {
+        "acknowledgment": "We thank the reviewer for this feedback.",
+        "direct_response": "[直接回应关切]",
+        "modification": "**Revisions Made**: **[最小化的具体修改]**",
+        "location": "**修改位置**: Section X.X, paragraph Y"
       }
     }
   },
