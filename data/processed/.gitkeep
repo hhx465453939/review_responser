@@ -1,0 +1,2 @@
+# This file ensures the processed data directory is tracked by Git
+# Intermediate processing results and transformed data will be stored here
